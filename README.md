@@ -12,7 +12,7 @@ single functions. See the following template for an example:
 
     import Logger
 
-    loggerConfig : Logger.Config
+    loggerConfig : Logger.Config a
     loggerConfig =
         Logger.defaultConfig Logger.Info
 
